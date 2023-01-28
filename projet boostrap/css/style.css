@@ -1,0 +1,334 @@
+@charset "utf-8";
+
+
+@font-face {
+    font-family: 'poppins';
+    src: url('../fonts/poppins-light-webfont.eot');
+    src: url('../fonts/poppins-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/poppins-light-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-light-webfont.woff') format('woff'),
+         url('../fonts/poppins-light-webfont.ttf') format('truetype'),
+         url('../fonts/poppins-light-webfont.svg#poppinslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+body
+{
+	font-family: 'poppins' !important;
+}
+
+/*si dessous se trouve la barre de navigation */
+.navigation
+{
+	display: flex;
+	justify-content: center;
+}
+
+/*nav item represente les mot contenue dans cette barre */
+.nav-item
+{
+	display: flex;
+	align-items: center;
+}
+
+nav
+{
+	font-size: 12px;
+	display: flex;
+}
+
+/*Svg reprensente les petite picto boostrap */
+svg
+{
+	width: 14px;
+}
+
+/*"Strongly" represente la zone dans laquel j'ai mis un h1 commencant par strongly*/
+.strongly
+{
+	padding-bottom: 100px;
+	color: #ed786a;
+	font-size: 45px;
+	margin-top: 4rem;
+	letter-spacing: 3px;
+	font-weight: bold;
+}
+.zone_gras{
+	font-weight: bold;
+}
+/*"Strongly" represente la zone dans laquel j'ai mis un h3 commencant par Gentlemen*/
+.gentlemen
+{
+	font-size: 25px;
+	margin-top: 3rem;
+	margin-bottom:2rem;
+}
+
+/*Les card sont les 3 zone dans le header*/
+.card
+{
+	margin: 20px;
+	border: none !important;
+}
+
+.card-body h2
+{
+	font-size:14px;
+	font-weight: bold;
+	padding-top: 18px;
+}
+
+.card-text
+{
+	font-weight: normal;
+	font-size: 13px;
+	padding-top: 18px;
+}
+
+/*Strongly represente la zone dans laquel j'ai le premier titre du main*/
+.titredeuxiemepartie
+{
+	font-size:20px ;
+}
+.titredeuxiemepart_gras{
+	font-weight: bold;
+}
+/*tell me more represente le span au dessus du carrousel*/
+.tell_me_more
+{
+	color:#ed786a;
+	font-size: 14px;
+}
+
+/*si dessous j'ai retirer les lien du bouton tell me more*/
+.tell_more_lien
+{
+	text-decoration: none;
+}
+
+figure
+{
+	width: 80%;
+}
+
+img
+{
+	width: 100%;
+}
+
+.image
+{
+	width: 300px;
+	height: 300px;
+}
+
+/*zoom permet de zoomer sur les photo*/
+.zoom:hover
+{
+	transition: 0.3s;
+	transform: scale(1.1);
+}
+
+/*bouton_main represente les bouton contenue dans la zone central du main*/
+.bouton_main
+{
+	background-color: #ed786a;
+	color: white;
+	border-radius: 3px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left:  12px;
+	padding-right: 12px;
+}
+
+.imgmain
+{
+	width: 100%;
+}
+
+/*bouton_learn_more represente les bouton dans l'accordeon*/
+.bouton_learn_more
+{
+	padding: 2%;
+	padding-left: 2%;
+	padding-right: 2%;
+	background-color: #ed786a;
+	color: white;
+	text-decoration: none;
+}
+
+/*Si dessous j'ai retirer le soulignement sur le lien learn more*/
+.lien_bouton_learn_more
+{
+	text-decoration: none;
+}
+
+/*Si dessous se trouve le carrousel auquel j'ai rajouter un margin*/
+.carrousel
+{
+	margin-top: 4rem;
+}
+
+/*Si dessous j'ai retirer le soulignement des lien a*/
+.accordeon2 a
+{
+	text-decoration: none;
+}
+
+/*image flottant designe les image dans l'accordeon*/
+.imageflottante
+{
+	width: 50%;
+	float: left;
+	padding: 2px;
+	border: 3px solid #e5e5e5;
+}
+
+/*Si dessous voici un lien hover sur le lien de la nav*/
+.lien_nav:hover
+{
+	color: rgb(59, 98, 181) !important;
+}
+
+/*Si dessous ce trouve l'artcle haut du main*/
+.article_haut
+{
+	padding-bottom: 5rem;
+	border-bottom: 5px double #888;
+}
+
+/*Si dessous ce trouve les lien des articles*/
+.article_haut a
+{
+	text-decoration: none;
+}
+
+.article_bas a
+{
+	text-decoration: none;
+}
+
+/*Si dessous ce trouve l'article haut du main*/
+.article_bas
+{
+	padding-top: 3rem;
+	padding-bottom: 6rem;
+}
+
+.contain_article
+{
+	margin-top: 2rem;
+	margin-bottom: 3rem;
+}
+
+/*Si dessous se trouve les titre du footer */
+.question
+{
+	font-weight: normal;
+	font-size: 25px;
+	padding-bottom: 20px;
+}
+
+.question span
+{
+	font-weight: bold;
+}
+
+/*Si dessous le soustitredeuxieme*/
+.soustitredeuxieme
+{
+	font-size: 15px;
+	
+}
+
+
+/*Si dessous le footer*/
+footer
+{
+	background-color: #ebebeb;
+	padding-bottom: 10rem;
+	padding-top: 6rem;
+}
+
+/*Si dessous le fieldset qui contient le form*/
+fieldset
+{
+	background-color: #ebebeb;
+}
+
+form
+{
+	background-color: #ebebeb;
+}
+
+/*Si dessous ce trouve les input*/
+input[type=text]
+{
+	width: 48%;
+	margin: 2px;
+	border: none;
+}
+
+textarea
+{
+	width: 99%;
+	height: 190px;
+	border: none;
+}
+
+.zonemessage
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.name_email
+{
+	margin-bottom: 10px;
+}
+
+input[type=submit]
+{
+	background-color:#ed786a;
+	color: white;
+	border:none;
+	padding: 8px;
+	padding-left:20px ;
+	padding-right:20px ;
+	border-radius: 3px;
+}
+
+/*si dessous j'ai modifier la taille des input nom et premom*/
+.nom
+{
+	width: 45%;
+}
+
+.prenom
+{
+	width: 45%;
+}
+
+/*si dessous se trouve les liste a coter du formulaire*/
+ul
+{
+	list-style-type: none;
+	padding: 5px;
+}
+
+.liste_footer_gauche li
+{
+	padding-bottom: 12px;
+	font-size: 12px;
+	padding: 4px;
+}
+
+.liste_footer_droite li
+{
+	font-size: 12px;
+	padding-bottom: 12px;
+	padding: 4px;
+}
